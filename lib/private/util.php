@@ -644,10 +644,10 @@ class OC_Util {
 			'defined' => array(
 				'PDO::ATTR_DRIVER_NAME' => 'PDO'
 			),
-			'ini' => [
-				'mbstring.func_overload' => 0,
-				'output_buffering' => false,
-			],
+//			'ini' => [
+//				'mbstring.func_overload' => 0,
+//				'output_buffering' => false,
+//			],
 		);
 		$missingDependencies = array();
 		$invalidIniSettings = [];
